@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34616.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hitachi_DotNet_Practical_Assignment.PL", "Hitachi_DotNet_Practical_Assignment.PL\Hitachi_DotNet_Practical_Assignment.PL.csproj", "{DEC3BD2C-9BE7-4613-84A8-CA9612AA4667}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A564B840-8E49-4BB8-A0B8-0E92F6F8FAC3} = {A564B840-8E49-4BB8-A0B8-0E92F6F8FAC3}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hitachi_DotNet_Practical_Assignment.DAL", "Hitachi_DotNet_Practical_Assignment.DAL\Hitachi_DotNet_Practical_Assignment.DAL.csproj", "{16A7264D-B153-4D5B-9656-9A49B4D5BFC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hitachi_DotNet_Practical_Assignment.BL", "Hitachi_DotNet_Practical_Assignment.BL\Hitachi_DotNet_Practical_Assignment.BL.csproj", "{8DBF07E2-4AF7-445A-AB46-2984518BEC2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hitachi_DotNet_Practical_Assignment.WCF", "Hitachi_DotNet_Practical_Assignment.WCF\Hitachi_DotNet_Practical_Assignment.WCF.csproj", "{A564B840-8E49-4BB8-A0B8-0E92F6F8FAC3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DEC3BD2C-9BE7-4613-84A8-CA9612AA4667}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEC3BD2C-9BE7-4613-84A8-CA9612AA4667}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEC3BD2C-9BE7-4613-84A8-CA9612AA4667}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEC3BD2C-9BE7-4613-84A8-CA9612AA4667}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16A7264D-B153-4D5B-9656-9A49B4D5BFC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16A7264D-B153-4D5B-9656-9A49B4D5BFC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16A7264D-B153-4D5B-9656-9A49B4D5BFC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16A7264D-B153-4D5B-9656-9A49B4D5BFC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DBF07E2-4AF7-445A-AB46-2984518BEC2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DBF07E2-4AF7-445A-AB46-2984518BEC2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DBF07E2-4AF7-445A-AB46-2984518BEC2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DBF07E2-4AF7-445A-AB46-2984518BEC2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A564B840-8E49-4BB8-A0B8-0E92F6F8FAC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A564B840-8E49-4BB8-A0B8-0E92F6F8FAC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A564B840-8E49-4BB8-A0B8-0E92F6F8FAC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A564B840-8E49-4BB8-A0B8-0E92F6F8FAC3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C98703CD-3952-4041-ABEF-C8ECA25EAC5D}
+	EndGlobalSection
+EndGlobal
